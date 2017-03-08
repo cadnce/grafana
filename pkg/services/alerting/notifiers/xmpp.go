@@ -39,7 +39,7 @@ func NewXmppNotifier(model *m.AlertNotification) (alerting.Notifier, error) {
 		Password: password,
 		Resource: "Grafana",
 		NoTLS:    true,
-		Debug:    false,
+		Debug:    true,
 		Session:  false,
 	}
 
